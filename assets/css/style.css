@@ -1056,7 +1056,16 @@ h3 {
     padding-bottom: 20px;
   }
 }
-
+@media only screen and (max-height:670px)
+{
+  .scroll-down{
+    position: absolute;
+    /* bottom: var(--m-2-5); */
+    bottom: 0.1rem;
+    left: 0;
+    width: 100%;
+  }
+}
 .timeline-text {
   text-align: justify;
   text-justify: auto;
